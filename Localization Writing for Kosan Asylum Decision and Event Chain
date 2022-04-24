@@ -1,0 +1,78 @@
+
+l_english:
+
+### Hippocrates' Kosan Asylum Decision
+
+kosan_asylum:0 "Hippocrates' Kosan Asylum"
+kosan_asylum_desc:0 "War is such a terrible thing. Does it not wet the eye to see the battle weary, the displaced, all uncertain travelers, trodding down the road, their heads held down? Is there nothing we can do? Perhaps there is some final safe haven, a paradise to be found for these lonely souls. Perhaps they could use the healing of Hippocrates. We all could. Then, it is decided - Kos will be the last vestige for the wayward warrior and the wandering, well-meaning men and women of the world. Let there be an asylum there, centered around the old Asklepion and the sacred groves which grow there. Let the fraught, the free, and the fearful go there and rest out this long war. Let us build this Elysium for them, for we may one day find ourselves needing some place to live out days in exile or in frustration."
+
+### Associated Decision Modifiers
+global_asylum:0 "Global Asylum" 
+gloal_asylum_desc:0 "Refugees come flocking in from every part of the war-torn world."
+
+asylum_of_hippocrates:0 "Hippocrates` Asylum" 
+asylum_of_hippocrates_desc:0 "Hippocrates made Kos a safe place where medicine championed and the sick and fearful were cared for."
+
+### Kosan Asylum Event-Chain 
+
+ egy_kosan_asylum.1.t:0 "The Cost of Asylum" #The Cost of Asylum
+ egy_kosan_asylum.1.desc:0 "A message arrives at court from the poet and scholar Philetas Telephosid of Kos. \n\n“My lord Ptolemy, whose family has known me for I have tutored their children in the ways of our history and writing, would you kindly hear my plea. \n\nIt is a good and just thing you have done, allowing many displaced persons to enter Kos and escape the fires of war. It is truly a credit to your person. However, there have been consequences even you could not have foreseen. Among these, there have been several encounters between these poor persons and the citizens of the town of Kos. Many who have taken shelter under the awning of the new temple or in the shade of a grove have been accosted with fire and beaten for disturbing the lives of the Koans. \n\nI bring this to you, not to accuse you, but to beseech you. Kindly consider sending at least a portion of these travelers yet further west to the nearby island of Astypalaia. There is a great deal of empty land there, and few natives to oppose their being there. It really is a tragedy that this should be the circumstance that it is, but the times are the times. \n\nIn thanks for your consideration and treatment of the issue, I pledge myself to teach yet another of your line, your heir in need of good counsel before the throne befalls them.\n\nThe humble Philetas.”"
+ egy_kosan_asylum.1.a:0 "Astypalaia is just sitting there."
+ egy_kosan_asylum.1.b:0 "By law, Apollo Halisarna will protect them!"
+ egy_kosan_asylum.1.c:0 "The situation is fine. The markets there are swelling."
+
+ egy_kosan_asylum.2.t:0 "The Cynic of Astypalaia" #The Cynic of Astypalaia
+ egy_kosan_asylum.2.desc:0 "A message arrives at court from the historian and cynic, companion of Alexander the Great, Onesicritos Ophellid of Astypalaia. \n\n“My lord, what has been set in motion at my home of Astypalaia is something I cannot understand! There are a multitude of foreign peoples, some barbarians among them, simply entering at our port and setting up hovels wherever they please. Now, I am a person set to peaceful and open discussion among all forms of peers, but this rabble is of another kind, simply coming and taking what they please. \n\nJust yesterday, I found a young boy building a house of mud on the corner of one of my own farms, and he gave me no more than a single look as I approached, yelling at him for his transgressions. Many good people come to our island, but this lot cannot all be called good people. \n\nI plead with you, treat this wound on my island. When I was pilot to the ship of king Alexander, these peoples were but conquered nats below our sandals. Let them too be conquered by you, so you might prove a true successor to my great, late king.”"
+ egy_kosan_asylum.2.a:0 "We could make a concerted effort to redistribute the refugees."
+ egy_kosan_asylum.2.b:0 "What a funny fellow. The affair is fine as it is."
+
+ egy_kosan_asylum.3.t:0 "The Cynical Sea Captain" #The Cynical Sea Captain
+ egy_kosan_asylum.3.desc:0 "A Greek fleet has harbored nearby and has sent a message. It is the same Onesicritos Ophellid of Astypalaia! \n\n“My lord, I come bearing you a great gift! For so diligently handling the overabundance of people on my island, I have pledged my service to you in your, doubtless, glorious conquests of the world. I have with me a not-insignificant portion of the fleet I once piloted under Alexander himself, which I have maintained in good order with my own purse. \n\nMy shipmates and I await your commands, so that I may live to see yet another Macedonian empire which spans all the known lands of the earth.”"
+ egy_kosan_asylum.3.a:0 "What a surprising ally."
+
+ egy_kosan_asylum.4.t:0 "The Cynical Alexander" #The Cynical Alexander
+ egy_kosan_asylum.4.desc:0 "Another message, an urgent one, arrives at court from Onesicritos Ophellid of Astypalaia. \n\n“My island has been desecrated by these people! I have already taken it upon myself to commandeer the local militia in order to limit them. Then it came to me. These people simply wish to live here and make this island a great place to live, a center of power for those willing to take it. They are a gift. \n\nI fought with Alexander, led his men down the river at the edge of the world, and would have followed him in his conquest of the underworld, had that opportunity been given to me. With this in mind, I give you a choice. Name me king of this island, or I will do it myself! I wrote the history of our true king, but why should I not follow in his footsteps?”"
+ egy_kosan_asylum.4.a:0 "We cannot invest our efforts in a war."
+ egy_kosan_asylum.4.b:0 "That traitor! I want his head."
+ egy_kosan_asylum.4.c:0 "He is not a real conqueror. Give him an offer he cannot refuse."
+
+ egy_kosan_asylum.5.t:0 "Cynicism at Court" #Cynicism at Court
+ egy_kosan_asylum.5.desc:0 "Onesicritos Ophellid has been quite… quiet, toiling away at court, spending a great deal of his time in his private chambers. Some feared the worst - plotting. \n\nYet, the scholar has finally left his room, unshaven, somewhat crazed, and brought his masterpiece before the ruler. He calls it “How Alexander Was Educated,” and has given it as a gift  from himself and the loyal people of Kos. Let it be said that the illuminating work has taught us a great deal. The secrets of the mind of the conqueror, at our fingertips. \n\nScorn the man who dares say knowledge is not power."
+ egy_kosan_asylum.5.a:0 "To conquer, one must study the ways of the conqueror."
+
+
+
+### Kosan Asylum Event-Chain Modifiers
+
+#Event (The Cost of Asylum)
+secondary_refugee_center:0 "Secondary Refugee Center"
+secondary_refugee_center_desc:0 "The main center for taking in refugees has overfilled, so this place is taking in those fleeing the crowded streets of the primary center. The only difference is that they were not ready here."
+
+establish_apollo_halisarna:0 "Establish the Sanctary to Apollo Halisarna"
+establish_apollo_halisarna_desc:0 "Apollo Halisarna, the healer, the protector, is now a physical beaken for those wayward souls preyed upon by the forces of the world."
+
+uncontrollable_immigration:0 "Uncontrollable Immigration"
+uncontrolable_immigration_desc:0 "The city can only hold so many people in its current state. It has become hard for people to function in their daily lives, and the afteraffects of overcrowding have set in... it starts with the smell."
+
+#Event (The Cynic of Astypalaia)
+managed_refugee_center:0 "Managed Refugee Center"
+managed_refugee_center_desc:0 "The infrastructure has been put in place to control the flow of new people into the settlement, preventing the issue of overcrowding and providing safe and easy entrance for those seeing refuge."
+
+#Event (The Cynical Alexander)
+emerging_successor:0 "Emerging Successor"
+emerging_successor_desc:0 "While the main diadochi are well established in the Mediterranean, there were many generals and advisors of Alexander the Great who wanted to rebuild his empire in their own vision."
+
+
+### Kosan Asylum Event-Chain Created Countries
+
+ASTYPALAIA_NAME:0 "Onesicritid Kingdom"
+ASTYPALAIA_ADJECTIVE:0 "Onesicritid"
+ATY:0 "Onesicritid Kingdom"
+ATY_ADJ:0 "Onesicritid"
+
+### Kosan Asylum Event-Chain Created Treasures
+treasure_how_alexander_was_educated:0 "How Alexander Was Educated"
+treasure_how_alezander_was_educated_desc:0 "Imitating the style of Xenophon, Onesicritos wrote a work discussing the learning experiences of Alexander on his journey and conquest, from a 1st-hand account (his own), and also weaved in many glorifying tales and fables conjured up about the great leader as they marched across the known world. Althogh it is a fallable work, it contains important information and accounts of periphery nations and peoples to the east of the Macedonian Empire at its greatest extent, detailing the existence of far away places such as the island of Taprobane (modern Sri Lanka)."
+
+
+
